@@ -7,22 +7,34 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <main>
-        <section id="about" style="text-align: center;">
-            <img src="images/yingbo_ma.jpg" alt="Yingbo Ma" style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: 20px;">
-            <h1>Welcome to Yingbo Ma's Website</h1>
-            <p>I am a Senior Data Scientist at the Intelligent Clinical Care Center (IC3) at the University of Florida, specializing in AI in healthcare, education, and human-computer interaction.</p>
+    <header>
+        <nav>
+            <ul style="display: flex; list-style: none; padding: 0; margin: 0;">
+                <li style="margin-right: 20px;"><a href="index.html">Home</a></li>
+                <li style="margin-right: 20px;"><a href="education.html">Education</a></li>
+                <li style="margin-right: 20px;"><a href="research.html">Research</a></li>
+                <li style="margin-right: 20px;"><a href="teaching.html">Teaching</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="display: flex;">
+        <!-- Left Section: Photo -->
+        <section id="photo" style="flex: 1; display: flex; justify-content: center; align-items: center; background-color: #f4f4f4; padding: 20px;">
+            <img src="images/yingbo_ma.jpg" alt="Yingbo Ma" style="width: 200px; height: 200px; border-radius: 50%;">
         </section>
 
-        <section id="quick-links" style="text-align: center;">
+        <!-- Right Section: Content -->
+        <section id="content" style="flex: 2; padding: 20px;">
+            <h1>Welcome to Yingbo Ma's Website</h1>
+            <p>I am a Senior Data Scientist at the Intelligent Clinical Care Center (IC3) at the University of Florida, specializing in AI in healthcare, education, and human-computer interaction.</p>
+
             <h2>Explore My Work</h2>
-            <ul style="display: flex; justify-content: center; list-style: none; padding: 0;">
-                <li style="margin: 0 20px;"><a href="education.html">Education</a></li>
-                <li style="margin: 0 20px;"><a href="research.html">Research</a></li>
-                <li style="margin: 0 20px;"><a href="publications.html">Publications</a></li>
-                <li style="margin: 0 20px;"><a href="teaching.html">Teaching</a></li>
-                <li style="margin: 0 20px;"><a href="mentoring.html">Mentoring</a></li>
-                <li style="margin: 0 20px;"><a href="contacts.html">Contact Me</a></li>
+            <ul style="display: flex; justify-content: flex-start; list-style: none; padding: 0;">
+                <li style="margin-right: 20px;"><a href="education.html">Education</a></li>
+                <li style="margin-right: 20px;"><a href="research.html">Research</a></li>
+                <li style="margin-right: 20px;"><a href="teaching.html">Teaching</a></li>
             </ul>
         </section>
     </main>
